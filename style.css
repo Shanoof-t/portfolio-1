@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    transition: all 1s ;
+}
+.nav-link:hover{
+    padding: 0.1rem;
+}
+.col-md-6 img{
+    width: 30rem;
+    height: 30rem;
+    transition: all 0.3s;
+    transform: rotate(120%);
+}
+.shanoof-img:hover{
+    /* cursor: pointer; */
+    width: 31rem;
+    height: 31rem;
+    
+}
+
+.bio h4{
+    margin-bottom: 2rem;
+}
+/* .bio a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: .7rem;
+    border: 2px solid black;
+    border-radius: 10rem;
+} */
+.bio button{
+    padding: 0.5rem 2rem;
+    border: 0 ;
+    border-radius: 10rem;
+    background-color: rgb(247, 132, 25);
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    transition:  1s ;
+    
+}
+.bio button:hover{
+    padding: 1rem 4rem;
+    animation: anima 1s ;
+    background-color: rgb(277, 172, 50);
+    
+
+}
+
+.image-display img{
+    width: 5rem;
+}
+.cards{
+    padding-top: 1rem;
+}
+
+.card{
+    height: 25rem;
+    
+}
+.card-body{
+    overflow: hidden;
+}
+
+.submib-btn button{
+    width: 100%;
+    background-color: rgb(247, 133, 3);
+}
+footer{
+    background-color: rgb(247, 132, 25);
+}
+footer a{
+    color: black;
+}
